@@ -7,7 +7,7 @@ This project is an interactive room design for COMP 303 (Software Design), McGil
   - Contains a README.md with more specific information about our project, the interactions available, and the design patterns used in the implementation. 
 
 ## Project Usage
-The game can be played either on a local server (single-player) or on a remote server (multi-player). The following steps need to be done in the terminal **from the dumbledores-office' directory**. Make sure you are running the game in an environment where the following packages are installed: `python-dotenv`, `requests`, `websocket-client`, `pygame`, and `Pillow`.
+The game can be played either on a local server (single-player) or on a remote server (multi-player). The following steps need to be done in the terminal **from the `dumbledores-office` directory**. Make sure you are running the game in an environment where the following packages are installed: `python-dotenv`, `requests`, `websocket-client`, `pygame`, and `Pillow`.
 
 1. In order to interact with the chatbots throughout the room, you will need to [create an OpenRouter API key](https://openrouter.ai/docs/api-reference/authentication, and save it in '/dumbledores-office/COMP303_Project/.env'.
 2. To launch the game server, run the following command: `python3 -m 303MUD.client_local`.
